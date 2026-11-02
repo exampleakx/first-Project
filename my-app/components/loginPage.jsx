@@ -27,7 +27,6 @@ export default function LoginPage({ mode = 'login' }) {
   const isSignup = mode === 'signup';
 
   async function handleSubmit(event) {
-    event.preventEvent?.();
     event.preventDefault();
     setError('');
     setLoading(true);

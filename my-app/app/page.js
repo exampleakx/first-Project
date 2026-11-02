@@ -35,7 +35,7 @@ export default function Home() {
 
         <div className="dashboard-grid">
           <section className="panel projects-panel">
-            <div className="panel-heading"><div><h2>Projects</h2><p>Track your team's active work</p></div><button>View all →</button></div>
+            <div className="panel-heading"><div><h2>Projects</h2><p>Track your team&apos;s active work</p></div><button>View all →</button></div>
             <div className="project-row"><div className="project-icon purple-icon">N</div><div className="project-name"><strong>Northstar website</strong><span>Website redesign</span></div><div className="project-progress"><div><span><b>68%</b></span><div><i style={{width:"68%"}} /></div></div><span>17 of 25 tasks</span></div><div className="avatars"><i>AM</i><i>JS</i><i>+3</i></div><span className="due-date urgent">Due Nov 5</span></div>
             <div className="project-row"><div className="project-icon blue-icon">M</div><div className="project-name"><strong>Mobile app v2.0</strong><span>Product development</span></div><div className="project-progress"><div><span><b>42%</b></span><div><i style={{width:"42%"}} /></div></div><span>8 of 19 tasks</span></div><div className="avatars"><i>KL</i><i>AM</i><i>+2</i></div><span className="due-date">Due Nov 12</span></div>
             <div className="project-row"><div className="project-icon green-icon">B</div><div className="project-name"><strong>Brand guidelines</strong><span>Design system</span></div><div className="project-progress"><div><span><b>91%</b></span><div><i style={{width:"91%"}} /></div></div><span>21 of 23 tasks</span></div><div className="avatars"><i>JS</i><i>+1</i></div><span className="due-date">Due Nov 18</span></div>
